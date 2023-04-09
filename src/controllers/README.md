@@ -1,0 +1,1 @@
+Controllers are functions that help us get info from endpoints and forward it
