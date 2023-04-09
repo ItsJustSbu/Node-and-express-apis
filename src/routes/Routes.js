@@ -2,7 +2,7 @@ const routes = app =>{
     app.route('/contact')
     //recieves data from the server
     .get((req,res,next)=>{
-        //middleware
+        //middleware - a proper enumeration tool
         console.log(`Request from: ${req.originalUrl}`);
         console.log(`request type: ${req.method}`);
         next();
